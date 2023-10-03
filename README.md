@@ -1,5 +1,12 @@
 # It-Rinha - Pedro Lucas
 
-## Caminho traçado
+## Usado:
 
-  Primeiro estou focado em fazer o docker-compose.yml
+ - MySQL
+ - Node
+ - Express
+ - Prisma
+
+## Scripts:
+
+Rode yarn deploy para rodar o nodemon e o prisma e faça as requisições!!
