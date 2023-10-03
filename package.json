@@ -1,0 +1,20 @@
+{
+  "name": "rinha-package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/PedroLSF/It-rinha.git",
+  "author": "Pedro Lucas <siqueirafernandes02@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "npx prisma generate && npx nodemon index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.3.1",
+    "express": "^4.18.2",
+    "prettier": "^3.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prisma": "^5.3.1"
+  }
+}
